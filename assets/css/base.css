@@ -1,0 +1,58 @@
+:root {
+    --white-color: #fff;
+    --black-color: #222;
+    --red-color: #ff385c; 
+    --grey-color: #f7f7f7;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 2.2rem;
+    box-sizing: border-box;
+    font-family: 'Questrial', sans-serif;
+}
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 80px;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer__grid {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+/* Animation */
+
+@keyframes actionContent1 {
+    from {
+        right: -30%;
+    }
+    to {
+        top: 55%;
+        right: 38%;
+    }
+}
+
+@keyframes actionContent2 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
